@@ -1,0 +1,44 @@
+.dataGridWrapper{
+    width: 100%;
+    padding: 4px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dataGrid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dataGridHead, .dataGridData {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.dataGridHead {
+    background-color: #007bff;
+    color: white;
+}
+
+.dataGridRow:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.dataGridRow:hover {
+    background-color: #ddd;
+}
+
+.availableStatus{
+    width: 14px;
+    height: 14px;
+    background: #7BFC00;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 4px;
+}

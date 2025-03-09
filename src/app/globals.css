@@ -146,6 +146,7 @@ a {
 .table td {
   padding: 16px;
   color: #000000;
+  text-transform: capitalize;
   border-bottom: 1px solid var(--border-color);
 }
 
